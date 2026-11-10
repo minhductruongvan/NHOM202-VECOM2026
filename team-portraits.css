@@ -1,18 +1,26 @@
 .portrait {
   isolation: isolate;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.portrait::before,
+.portrait::after {
+  content: none;
+  display: none;
 }
 
 .portrait img {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 28%;
 }
 
-.portrait::before {
-  z-index: 0;
-  border-color: #ffffff70;
+.member h3 {
+  text-align: center;
 }

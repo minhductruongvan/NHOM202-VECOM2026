@@ -58,3 +58,43 @@ main .note {
   display: block;
   margin: 0;
 }
+
+.hero p {
+  font-size: 17px;
+}
+
+.intro {
+  font-size: 16px;
+}
+
+.bandgrid small,
+.role {
+  font-size: 12px;
+}
+
+.member p,
+.stat p,
+.evidence p,
+.step p,
+.note {
+  font-size: 12px;
+}
+
+.evidence small,
+.content small,
+.step b {
+  font-size: 11px;
+}
+
+.content p,
+.feature p {
+  font-size: 14px;
+}
+
+.bigstat small {
+  font-size: 14px;
+}
+
+.bigstat h4 {
+  font-size: 15px;
+}

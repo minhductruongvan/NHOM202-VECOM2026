@@ -103,6 +103,17 @@ main .note {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  height: auto;
+  min-height: 0;
+  padding: 10px;
+}
+
+.productcard .productimage img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
 }
 
 .productcard .content {
@@ -120,4 +131,30 @@ main .note {
   max-height: none;
   height: auto;
   object-fit: contain;
+}
+
+.eyebrow {
+  width: fit-content;
+  max-width: 100%;
+  padding: 7px 12px;
+  border: 1px solid #d5e3fb;
+  border-radius: 999px;
+  background: #edf4ff;
+  color: #315b9f;
+  gap: 9px;
+}
+
+.eyebrow::before {
+  flex: 0 0 8px;
+}
+
+.productcard .content small,
+.step b {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 9px;
+  border: 1px solid #d7e4fb;
+  border-radius: 7px;
+  background: #edf4ff;
+  color: #2458b5;
 }

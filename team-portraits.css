@@ -16,14 +16,3 @@
   z-index: 0;
   border-color: #ffffff70;
 }
-
-.portrait::after {
-  z-index: 0;
-  background: linear-gradient(180deg, transparent 48%, #102448a8 100%);
-}
-
-.portrait small {
-  z-index: 1;
-  color: white;
-  text-shadow: 0 1px 5px #102448a8;
-}

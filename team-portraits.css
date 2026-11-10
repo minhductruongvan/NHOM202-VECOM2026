@@ -21,6 +21,11 @@
   object-position: center 20%;
 }
 
+.member:nth-child(3) .portrait img,
+.member:nth-child(4) .portrait img {
+  object-position: center 12%;
+}
+
 .member h3 {
   text-align: center;
 }

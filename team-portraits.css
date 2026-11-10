@@ -38,3 +38,23 @@ main p,
 main .note {
   text-align: justify;
 }
+
+.bigstat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bigstat small {
+  display: block;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+.bigstat b,
+.bigstat h4 {
+  display: block;
+  margin: 0;
+}

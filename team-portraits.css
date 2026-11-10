@@ -98,3 +98,26 @@ main .note {
 .bigstat h4 {
   font-size: 15px;
 }
+
+.productcard .productimage {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.productcard .content {
+  position: relative;
+  z-index: 2;
+}
+
+.visualflow {
+  padding: 0;
+  overflow: hidden;
+}
+
+.visualflow img {
+  width: 100%;
+  max-height: none;
+  height: auto;
+  object-fit: contain;
+}

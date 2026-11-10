@@ -33,3 +33,8 @@
 .member:nth-child(n + 2):nth-child(-n + 4) .role {
   text-align: center;
 }
+
+main p,
+main .note {
+  text-align: justify;
+}
